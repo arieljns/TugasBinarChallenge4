@@ -1,0 +1,64 @@
+body {
+  background-color: #9c835f;
+}
+body h1 {
+  color: #F2B34D;
+}
+body .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container .player-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .container .player-one img {
+  margin-top: 20px;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+}
+body .container .versus-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 50px;
+}
+body .container .versus-container .versus {
+  color: red;
+  font-size: 3em;
+}
+body .container .versus-container .anouncement {
+  display: none;
+  background-color: green;
+  color: white;
+  rotate: 30deg;
+  border-radius: 20px;
+  padding: 20px;
+}
+body .container .computer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  left: 100px;
+}
+body .container .computer img {
+  margin-top: 20px;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+.btn img {
+  position: relative;
+  left: 35px;
+  width: 50px;
+  height: 50px;
+}/*# sourceMappingURL=index.css.map */
